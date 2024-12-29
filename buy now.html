@@ -1,0 +1,359 @@
+
+
+
+        <html>
+          <head>
+              <title> </title>
+              <style>
+                *{
+                   text-decoration: none;
+                   margin: 0px;
+                   padding: 0px;
+                  } 
+                nav{
+                  background-color:palevioletred;
+                  font-size: 30px;
+                  position: sticky;
+                  top:0;
+                  height: 70px;
+                  
+                }
+              li{
+                position: relative;
+                left:500px;
+              }
+              li a{
+                color: white;
+                 font-size :20px;
+                margin-right: 25px;
+                position: relative;
+                top: 10px;
+              }
+              h1{
+                color: white;
+                position: relative;;
+                bottom: 25px;
+                font-size: 30px;
+              }
+              h1,li,ul{
+                display: inline-block;
+              }
+             .gallery{
+                display:flex;
+                flex-wrap: wrap;
+               
+               justify-content: center;
+                align-items: center;
+                margin: 50px 0 ;
+            
+              }
+               .content{
+                width: 20%;
+                margin: 15px;
+                box-sizing: border-box ;
+                text-align: center;
+                border-radius: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: pink;
+                }
+                a img{
+                height: 200px;
+                width: 200px;
+                margin: 20px;
+                box-sizing: border-box ;
+                padding-top: 10px;
+                }
+                h6{
+                 font-size: 26px;
+                 text-align: center;
+                 color: black;
+                 margin: 0;}
+                 h3{
+                  font-size: 30px;
+                 }
+                button
+                {
+                text-align:center ;
+                font: size 20px;
+                color: white;
+                width: 100%;
+                padding: 20px;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                position: relative;
+                top: 10px;
+                }
+              button:hover{
+                background-color: red;
+          
+              }
+              .buy-1{
+                background-color: palevioletred;
+              }
+              .search-box{
+                  position: relative;
+                  left: 200%;
+                  bottom: 20px;
+                  width: 200px;
+                  height: 30px;
+               }   
+                 .search-box input[type="search"] {
+                  width: 100%;
+                  height: 100%;
+                  padding: 10px;
+                  border: 1px solid#ccc;
+                  border-radius: 5px;
+                 } 
+                 .search-icon{
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  padding:7px;
+                  color: #aaa;
+                 } 
+                 .search-icon:hover{
+                  color: #666;}
+               
+                .flex{
+                      display: flex;
+                      align-items: stretch;
+                      padding: 50px;
+                  }
+                  .flex>div{
+                      margin: 30px;
+                      text-align: center;
+                  }
+               
+                h4{
+                  font-size: 50px;
+                }
+              .flex-grow {
+                transition: transform 0.5s ease;
+              }
+              .flex-grow:hover{
+                transform:scale(1.2) ;
+               
+              }
+              .content{
+                transition: transform 0.5s ease;
+              }
+              .content img:hover{
+               transform :scale(1.2);
+               
+              }
+              footer{
+                background-color:lightslategray;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 30px;
+                
+              }  
+          
+              .main{
+                padding: 20px;
+                color: black;
+              }
+              p{
+                font-size: 20px;
+              }
+              h5{
+                font-size: 30px;
+              }
+              
+            .horizontal-line{
+              border-top:1px solid #000;
+              width: 100%;
+              margin: 20px 0;
+          
+            }
+                
+            h7{
+               font-size: 20px;
+              }  
+              @media (max-width:1000px) {
+                .content{
+                  width: 45%;
+                }
+              }
+             
+              @media (max-width:750px) {
+                .content{
+                  width: 100%;
+                }
+              }
+              @media only screen and (max-width:1000px){
+                .nav  {
+                  
+              }
+                ul{
+                  display: flex;
+                  flex-direction: column;
+                  
+                  position: relative;
+                  right: 500px;
+                  
+                  
+                }
+                h1{
+                  position: relative;
+                  top:20px;
+                } 
+               .search-box{
+                position: relative;
+                left: 500px;
+                top: 10px;
+               }   
+               .search-icon {
+                position: relative;
+                left: 500px;
+                top: 10px; 
+                
+               } 
+              }
+              @media only screen and (max-width:750px){
+                .nav {
+                  background-color: palevioletred;
+              }
+                ul{
+                  display: flex;
+                  flex-direction: column;
+                  
+                  position: relative;
+                  right: 500px;
+                }
+                h1{
+                  position: relative;
+                  top:20px;
+                } 
+               .search-box{
+                position: relative;
+                 left: 500px;
+                top: 10px;
+                /* right: 500px; */
+               }   
+               .search-icon span i {
+                position: relative;
+                left: 100%;
+                top: 10px;
+                
+               }}
+               @media(max-width:880px){
+               .main{
+                  display: block;
+                  width: 100%;
+              }
+          
+              }
+              @media(max-width:880px){
+               .phone{
+                  position: relative;
+                  right: 500px;
+                
+              }
+              .meesho{
+                 position: relative;
+                 right: 500px;
+               }  
+               }
+               @media(max-width:1000px){
+              .flex-grow{
+                width: 40%;
+                
+              }
+               }
+                 
+               @media(max-width:800px){
+                .flex-grow{
+                  width: 90%;
+                }
+               }
+                @media (max-width:600px) {
+                .flex-grow{
+                  width: 200%;
+                }
+              }
+       </style>
+
+
+
+ </style>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+   <body>
+      <nav class="keer">
+       <h1> Fashion  </h1>
+       
+       <ul>          
+          <li><img src="image/images/icons8-home-24 (1).png" style="position: relative; top: 14px;"><a href="index.html"> Home</a></li>
+          <li><img src="image/images/icons8-category-30.png"style="position: relative; top:17px;"><a href="categories.html"> Categories</a></li>
+          <li><img src="image/images/icons8-shopping-mall-24 (1).png" style="position: relative; top:15px"><a href="mall.html">Mall</a></li>
+          <li><img src="image/images/icons8-mobile-shopping-30.png" style="position: relative; top:15px"><a href="my order.html"> My Order</a></li>
+        <div class="search-box">
+            <input type="search" placeholder="search by keyword..">
+            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+       </ul>
+    </nav> <br><br><br><br>
+<center>
+    <h1 style="color: blue;"><img src="image1/location.png" height="30px"width="30px"; ><a href="https://www.google.com/maps/@11.3389295,78.3782244,11z/data=!4m2!24m1!9e1?entry=ttu&g_ep=EgoyMDI0MTAxMy4wIKXMDSoASAFQAw%3D%3D" style="text-decoration-line: none;">Delivery Address</a></h1>
+   <h3>637411,Thuraiur-637411</h3>
+   <h3 style="font-size: 40px;color:blue;" >price Details</h3>
+   <h3>Total product price:$273</h3>
+   <h3>Total Discount:$32</h3>
+   <h3>Order Total:$241</h3>
+   <h3 style="font-size: 40px;color: blue;">Paypent Option</h3>
+   <h3>Cash on Delivery</h3>
+<img src="image1/google pay.png" style="position: relative;left: 20px;">
+    <button style="width: 110px;border-top-right-radius: 20px;
+                border-top-left-radius: 20px; position: relative;right:200px;"><a href="https://www.google.com/maps/dir///@11.3389295,78.3782244,11z?entry=ttu&g_ep=EgoyMDI0MTAxMy4wIKXMDSoASAFQAw%3D%3D">Address</a></button><br><br><br><br>
+
+</center>
+
+
+    <footer>
+      <div class="main">
+        <h5>Shop Non-Stop on Meesho</h5>
+        <p>Trusted by more than 1 crore</p> <p>Indians Cash on Delivery & Free Delivery</p>
+        <button style="color: white; width: 150px; height: 55px; border-top-right-radius: 20px; border-top-left-radius: 20px; background-color: black; position: relative; top:20px" ><i class="fa-brands fa-google-play">Google Play</i></button>
+        <button style="color: white; width: 150px; height: 55px; border-top-right-radius: 20px; border-top-left-radius: 20px; background-color: black; position: relative;bottom: 50px;" > <i class="fa-brands fa-app-store">App Store</i></button>
+      </div>
+      <div class="main">
+        <h5>Get Help</h5>
+        <p>FAQ</p>
+        <p>shipping</p>
+        <p>return</p>
+        <p>order status</p>
+        <p>payment option</p>
+      </div>
+      <div class="main">
+        <h5>Contact Us</h5>
+        <p>Phone:4568906432</p>
+        <p>Gmail:mohankeerthi56@gmail.com</p>
+        <p>005, Periyakovilur, Valappur Nadu, Namakkal</p>
+      </div>
+      <div class="main">
+          <h5></h5>
+          <p>*Careers</p>
+          <p>*Become a </p>
+          <p>Supplier</p>
+          <p>*Hall of Fame</p>
+          <p>*Sitemap</p>
+      </div>
+      <div class="main" style="position: relative; left: 500px;">
+      <div class="phone">
+          <h5 style="position: relative; left:10px;">Follow Us</h5>
+          <p><img src="image/images/icons8-instagram-48.png"><img src="image/images/icons8-whatsapp-48.png"><img src="image/images/icons8-youtube-48.png"><img src="image/images/icons8-twitter-48.png"></p>
+          </div>
+          
+      </div>
+      <div class="horizontal-line"></div>
+      <div class="meesho">
+      <h7  style="position: relative; left:500px"height="40px"width="40px" style="position: relative; top: 15px;">2018 Meesho. All right reserved</h7>
+      </div>  
+      
+      
+   </footer>
+  </body>
+      </html>
