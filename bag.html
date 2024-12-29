@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Card Example</title>
+</head>
+        <style>
+          *{
+             text-decoration: none;
+             margin: 0px;
+             padding: 0px;
+            } 
+          nav{
+            background-color:palevioletred;
+            font-size: 30px;
+            position: sticky;
+            top:0;
+            height: 70px;
+            
+          }
+        li{
+          position: relative;
+          left:500px;
+        }
+        li a{
+          color: white;
+           font-size :20px;
+          margin-right: 25px;
+          position: relative;
+          top: 10px;
+        }
+        h1{
+          color: white;
+          position: relative;
+          bottom: 25px;
+          font-size: 30px;
+        }
+        h1,li,ul{
+          display: inline-block;
+        }
+     .card{
+        padding: 20px;
+    } 
+     button{
+       
+      background-color:palevioletred ;
+    } 
+
+    
+        
+          h6{
+           font-size: 26px;
+           text-align: center;
+           color: black;
+           margin: 0;}
+           h3{
+            font-size: 30px;
+           }
+           button
+          {
+          text-align:center ;
+          
+          color: white;
+          width: 80%;
+          padding: 20px;
+          border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
+          position: relative;
+          top: 10px;
+          
+          }  
+        button:hover{
+          background-color: red;
+    
+        }
+        .buy-1{
+          background-color: palevioletred;
+        }
+        .search-box{
+            position: relative;
+            left: 200%;
+            bottom: 20px;
+            width: 200px;
+            height: 30px;
+         }   
+           .search-box input[type="search"] {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            border: 1px solid#ccc;
+            border-radius: 5px;
+           } 
+           .search-icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding:7px;
+            color: #aaa;
+           } 
+           .search-icon:hover{
+            color: #666;}
+         
+         
+           
+        footer{
+          background-color:lightslategray;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 30px;
+          
+        }  
+    
+        .main{
+          padding: 20px;
+          color: black;
+        }
+        p{
+          font-size: 20px;
+        }
+        h5{
+          font-size: 30px;
+        }
+        
+      .horizontal-line{
+        border-top:1px solid #000;
+        width: 100%;
+        margin: 20px 0;
+    
+      }
+      @media only screen and (max-width:1000px){
+          .nav  {
+            
+        }
+          ul{
+            display: flex;
+            flex-direction: column;
+            
+            position: relative;
+            right: 500px;
+            
+            
+          }
+          h1{
+            position: relative;
+            top:20px;
+          } 
+         .search-box{
+          position: relative;
+          left: 500px;
+          top: 10px;
+         }   
+         .search-icon {
+          position: relative;
+          left: 500px;
+          top: 10px; 
+          
+         } 
+        }
+        @media only screen and (max-width:750px){
+          .nav {
+            background-color: palevioletred;
+        }
+          ul{
+            display: flex;
+            flex-direction: column;
+            
+            position: relative;
+            right: 500px;
+          }
+          h1{
+            position: relative;
+            top:20px;
+          } 
+         .search-box{
+          position: relative;
+           left: 500px;
+          top: 10px;
+          /* right: 500px; */
+         }   
+         .search-icon span i {
+          position: relative;
+          left: 100%;
+          top: 10px;
+          
+         }}
+         
+    
+       
+        
+        
+           
+           
+ </style>
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+   <body>
+      <nav class="keer">
+       <h1> Fashion  </h1>
+       
+       <ul>          
+          <li><img src="image/images/icons8-home-24 (1).png" style="position: relative; top: 14px;"><a href="index.html"> Home</a></li>
+          <li><img src="image/images/icons8-category-30.png"style="position: relative; top:17px;"><a href="categories.html"> Categories</a></li>
+          <li><img src="image/images/icons8-shopping-mall-24 (1).png" style="position: relative; top:15px"><a href="mall.html">Mall</a></li>
+          <li><img src="image/images/icons8-mobile-shopping-30.png" style="position: relative; top:15px"><a href="my order.html"> My Order</a></li>
+        <div class="search-box">
+            <input type="search" placeholder="search by keyword..">
+            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+       </ul>
+    </nav>
+      
+<div class="boos" style="display: flex;"> 
+<div class="card">
+  <img src="image2/structured tote bag.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+
+ <center>   
+        <h2 class="card-title">Structured tote-bag</h2>
+        <h2>$389.00</h2>
+        <img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-half-empty-32 (1).png"><img src="image/images/icons8-star-half-empty-32 (1).png">
+</center> 
+      <a href="buy now.html"><button><img src="image/images/icons8-create-order-30.png">Order Now</button></a>
+</div>
+
+<div class="card">
+      <img src="image2/travel bag.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+  <center>    
+      <h2 class="card-title">Travel bag</h2>
+      <h2>$499.00</h2>
+      <img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-half-empty-32 (1).png"><img src="image/images/icons8-star-half-empty-32 (1).png">
+  </center>
+  <a href="buy now.html"> <button><img src="image/images/icons8-create-order-30.png">Order Now</button></a>
+</div>
+<div class="card">
+      <img src="image2/sling bag.jpg" class="card-img-top" alt="..." height="300px" width="300px">
+ <center>   
+      <h2>Sling bag</h2>
+      <h3>$399.00</h3>
+      <img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-half-empty-32 (1).png"><img src="image/images/icons8-star-half-empty-32 (1).png">
+  </center>
+    <a href="buy now.html"><button ><img src="image/images/icons8-create-order-30.png">Order Now</button></a>
+</div>
+<div class="card">
+      <img src="image2/girls bag.jpg" class="card-img-top" alt="..."height="300px" width="300px">
+ <center>     
+     <h2 class="card-title">Girls bag</h2>
+      <h2>$669.00</h2>
+      <img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-30.png"><img src="image/images/icons8-star-half-empty-32 (1).png"><img src="image/images/icons8-star-half-empty-32 (1).png">
+  </center>
+    <a href="buy now.html"><button><img src="image/images/icons8-create-order-30.png">Order Now</button></a>
+    </div>
+    </div><br><br><br><br><br><br><br>
+    
+    </body>
+
+      <footer>
+        <div class="main">
+          <h5>Shop Non-Stop on Meesho</h5>
+          <p>Trusted by more than 1 crore</p> <p>Indians Cash on Delivery & Free Delivery</p>
+          <button style="color: white; width: 150px; height: 55px; border-top-right-radius: 20px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;      background-color: black; position: relative; top:20px;" ><i class="fa-brands fa-google-play">Google Play</i></button>
+          <button style="color: white; width: 150px; height: 55px; border-top-right-radius: 20px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;     background-color: black; position: relative;bottom: 50px;" > <i class="fa-brands fa-app-store">App Store</i></button>
+        </div>
+        <div class="main">
+          <h5>Get Help</h5>
+          <p>FAQ</p>
+          <p>shipping</p>
+          <p>return</p>
+          <p>order status</p>
+          <p>payment option</p>
+        </div>
+        <div class="main">
+          <h5>Contact Us</h5>
+          <p>Phone:4568906432</p>
+          <p>Gmail:mohankeerthi56@gmail.com</p>
+          <p>005, Periyakovilur, Valappur Nadu, Namakkal</p>
+        </div>
+        <div class="main">
+            <h5></h5>
+            <p>*Careers</p>
+            <p>*Become a </p>
+            <p>Supplier</p>
+            <p>*Hall of Fame</p>
+            <p>*Sitemap</p>
+        </div>
+        <div class="main" style="position: relative; left: 500px;">
+        <div class="phone">
+            <h5 style="position: relative; left:10px;">Follow Us</h5>
+            <p><img src="image/images/icons8-instagram-48.png"><img src="image/images/icons8-whatsapp-48.png"><img src="image/images/icons8-youtube-48.png"><img src="image/images/icons8-twitter-48.png"></p>
+            </div>
+            
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="meesho">
+        <h7  style="position: relative; left:500px"height="40px"width="40px" style="position: relative; top: 15px;">2018 Meesho. All right reserved</h7>
+        </div>  
+        
+        
+     </footer>
+    </body>
+  </html>
+     
